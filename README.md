@@ -1,1 +1,1 @@
-# BitcoinCash.RPCClient
+# Bitcoin.RPCClient

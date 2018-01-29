@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{E1A4D4EC-276F-4A9B-AC77-082439606386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimemicroCore.BitcoinCash.RPCClient.ConsoleApp", "TimemicroCore.BitcoinCash.RPCClient.ConsoleApp\TimemicroCore.BitcoinCash.RPCClient.ConsoleApp.csproj", "{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timemicro.BitcoinCash.RPCClient", "Timemicro.BitcoinCash.RPCClient\Timemicro.BitcoinCash.RPCClient.csproj", "{7DD6FD24-B1A9-47B4-A903-59D276877DC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimemicroCore.BitcoinCash.RPCClient", "TimemicroCore.BitcoinCash.RPCClient\TimemicroCore.BitcoinCash.RPCClient.csproj", "{179FC44A-9C81-4512-8CF6-693A80E7593B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timemicro.BitcoinCash.RPCClient.MSUnitTests", "UnitTests\Timemicro.BitcoinCash.RPCClient.MSUnitTests\Timemicro.BitcoinCash.RPCClient.MSUnitTests.csproj", "{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Debug|x86.Build.0 = Debug|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Release|x86.ActiveCfg = Release|Any CPU
+		{68B43E9E-9ED1-462A-B6B7-D94BF9F1ECF6}.Release|x86.Build.0 = Release|Any CPU
+		{7DD6FD24-B1A9-47B4-A903-59D276877DC0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7DD6FD24-B1A9-47B4-A903-59D276877DC0}.Debug|x86.ActiveCfg = Debug|x86
+		{7DD6FD24-B1A9-47B4-A903-59D276877DC0}.Debug|x86.Build.0 = Debug|x86
+		{7DD6FD24-B1A9-47B4-A903-59D276877DC0}.Release|Any CPU.ActiveCfg = Release|x86
+		{7DD6FD24-B1A9-47B4-A903-59D276877DC0}.Release|x86.ActiveCfg = Release|x86
+		{7DD6FD24-B1A9-47B4-A903-59D276877DC0}.Release|x86.Build.0 = Release|x86
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Debug|x86.Build.0 = Debug|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Release|x86.ActiveCfg = Release|Any CPU
+		{179FC44A-9C81-4512-8CF6-693A80E7593B}.Release|x86.Build.0 = Release|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E62EFA7-2E5D-4D71-8C3B-B5C51DFF2204} = {E1A4D4EC-276F-4A9B-AC77-082439606386}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B8C5A28-C587-427D-9425-D1B5F7A1BAC4}
+	EndGlobalSection
+EndGlobal
